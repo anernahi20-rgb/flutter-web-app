@@ -1,5 +1,7 @@
 # Flutter Web App
 
+[![Flutter Web Build and Deploy](https://github.com/anernahi20-rgb/flutter-web-app/actions/workflows/flutter-web.yml/badge.svg)](https://github.com/anernahi20-rgb/flutter-web-app/actions/workflows/flutter-web.yml)
+
 A Flutter web application with automated GitHub Actions deployment.
 
 ## Features
@@ -9,6 +11,7 @@ A Flutter web application with automated GitHub Actions deployment.
 - 🌐 GitHub Pages deployment
 - 📱 Responsive design
 - 🎨 Material Design 3
+- ✅ Automated testing and analysis
 
 ## Getting Started
 
@@ -45,17 +48,22 @@ flutter build web --release
 
 This project is automatically deployed to GitHub Pages when you push to the main branch. The GitHub Action workflow:
 
-1. Sets up Flutter environment
-2. Gets dependencies
-3. Runs code analysis
-4. Runs tests
-5. Builds the web app
-6. Deploys to GitHub Pages
+1. ✅ Sets up Flutter environment
+2. 📦 Gets dependencies
+3. 🔍 Runs code analysis
+4. 🧪 Runs tests
+5. 🏗️ Builds the web app
+6. 🚀 Deploys to GitHub Pages
 
 ## Live Demo
 
 Once deployed, your app will be available at:
-https://anernahi20-rgb.github.io/flutter-web-app/
+**https://anernahi20-rgb.github.io/flutter-web-app/**
+
+## Build Status
+
+Check the current build status by clicking the badge above or visiting:
+[GitHub Actions](https://github.com/anernahi20-rgb/flutter-web-app/actions)
 
 ## Project Structure
 
