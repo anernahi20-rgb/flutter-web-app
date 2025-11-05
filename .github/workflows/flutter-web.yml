@@ -26,8 +26,14 @@ jobs:
     - name: Analyze code
       run: flutter analyze
       
-    - name: Run tests
-      run: flutter test
+    - name: Run tests (if any)
+      run: |
+        if [ -d test ]; then
+          echo "Running tests..."
+          flutter test
+        else
+          echo "No test directory found. Skipping tests."
+        fi
       
     - name: Build web
       run: flutter build web --release --base-href /flutter-web-app/
